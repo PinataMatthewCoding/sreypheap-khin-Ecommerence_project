@@ -1,0 +1,124 @@
+.profile{
+    width: 20%;
+}
+.profile>img{
+    width: 30%;
+    margin-left: 30%;
+    margin-top: 5px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: #154360;
+}
+ul{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.nav ul li a:hover{
+    background-color: #092231;
+    color: #e0193a;
+    transition: 0.2s;
+    padding: 10px;
+    border-right: 5px solid black;
+}
+.nav ul li a{
+    background-color: #154360;
+    color: white;
+}
+/* start container */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    line-height: 1.5;
+    text-decoration: none;
+    list-style: none;
+}
+.container {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.form-add {
+    flex: 1;
+    padding: 1px;
+}
+.table-data {
+    flex: 1;
+    padding: 10px;
+    border-left: 1px solid rgb(221, 194, 194);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+tr,td, th {
+    border: 1px solid rgb(248, 229, 229);
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background: #1B4F72 ;
+}
+form {
+    background-image: url(../img/1\ \(5\).jpg);
+    padding: 10px;
+    margin: 15px;
+    width: 90%;
+    height: 500px;
+}
+input[type = text],input[type = url] {
+    width: 485px;
+    padding: 8px;
+    border-radius: 5px;
+    outline: none;
+}
+label:hover{
+    color: red;
+}
+a {
+    background-color: white;
+    padding: 10px;
+    color: black;
+    cursor: pointer;
+    margin-left: 90px;
+    text-align: center;
+}
+a:hover{
+    background-color: #1B4F72 ;
+}
+.btn{
+    display: flex;
+}
+.btn>button{
+    width: 240px;
+    padding: 9px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+.btn a{
+    border-radius: 5px;
+    width: 200px;
+    margin: auto;
+    margin-left: 9%;
+}
+button:hover{
+    background-color:#1B4F72 ;
+    border: none;
+}
+
+.Update{
+    width: 10%;
+    /* height: 100%; */
+    border-radius: 30%;
+}
+
+img{
+    width: 30px;
+    gap: 70px;
+}
