@@ -7,6 +7,8 @@ body{
     display: flex;
     align-items: center;
     background-color: #154360;
+    position: sticky;
+    top: 0;
 }
 .profile{
     width: 20%;
@@ -43,6 +45,7 @@ input[type= text]{
 form i{
     background-color: #060606;
     padding: 10px;
+    color: #059ffe;
 }
 
 /* start header */
@@ -69,7 +72,9 @@ form i{
 .mt-5 {
     display: flex;
     justify-content: center;
-    margin-top: 50px;  
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #0e6296;  
 }
 .title {
     font-weight: 500;
@@ -113,12 +118,16 @@ img{
 }
 .footer-top-back{
     background-color: #1B4F72;
+    margin-top: 20px;
     padding: 18px;
     text-align: center;
 }
 .footer-top-back:hover{
     background-color: #0565a0;
-    transition: 0.5s;
+    transition: 0.2s;
+}
+.footer-top-back h3:hover{
+    color: #092231;
 }
 .footer-top{
     padding: 20px;
@@ -131,18 +140,13 @@ img{
     width: 20%;
     padding: 30px;
 }
-/* a{
-    text-decoration: none;
-} */
-.footer-top-a1>p{
-    color: white;
-}
+
 .group-icon,i{
-    color: chocolate;
+    color: #009dff;
     font-size: larger;
 }
-.footer-top-a3>p{
-    color: white;
+h3{
+    color: #009dff;
 }
 .footer-button{
     text-align: center;

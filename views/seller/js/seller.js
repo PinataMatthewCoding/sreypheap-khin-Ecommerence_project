@@ -8,7 +8,6 @@ function getProductFromLocalStorage(key) {
 
 function createNewRecord(name, price, quantity, color, img, edit_delete) {
     const tr = document.createElement("tr");
-    // tr.dataset.index =index
     const tdOne = document.createElement("td");
     const tdTwo = document.createElement("td");
     const tdThree = document.createElement("td");
@@ -35,19 +34,16 @@ function createNewRecord(name, price, quantity, color, img, edit_delete) {
     //------------------------------For delete products ------------------------//
     buttonDelete.addEventListener("click", (e) =>{
         let index = e.target.parentElement.parentElement.dataset.index;
-    console.log(index)
         productList.splice(index, 1);
         addProductToLocalStorage("product-name", JSON.stringify(productList));
         displayProduct();
     })
-
+    
+    
     //-----------------------------for edit products---------------------------//
-    // buttonEdit.className = "edit"
-    // buttonEdit.src = "img/edite.png";
-
     buttonEdit.addEventListener('click',(e)=>{
         let index = e.target.parentElement.parentElement.dataset.index;
-    
+        productList.splice(index, 1);
         document.getElementById("product-name").value = name;
         document.getElementById("product-price").value = price;
         document.getElementById("product-quantity").value = quantity;

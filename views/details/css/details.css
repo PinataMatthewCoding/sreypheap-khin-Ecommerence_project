@@ -1,0 +1,113 @@
+/* style nav bar sign in && log in */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url(../../img/6.png);
+}
+.profile{
+    width: 20%;
+}
+.profile>img{
+    width: 30%;
+    margin-left: 30%;
+    margin-top: 5px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    background-color: #154360;
+}
+ul{
+    display: flex;
+    text-transform: uppercase;
+    list-style: none;
+}
+.nav ul li a:hover{
+    background-color: #092231;
+    color: #1934e0;
+    transition: 0.5s;
+    padding: 15px;
+    border-right: 5px solid black;
+}
+a{
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+/* start login && sign in */
+.header{
+    margin-top: 10px;
+}
+h1{
+    text-align: center;
+    color: #3a01c8;
+}
+form{
+    width: 40%;
+    margin: auto;
+    background-color: #03073071;
+    border-radius: 20px;
+    padding: 10px;
+}
+input[type= email],input[type= password]{
+    margin: 13px;
+    padding: 13px;
+    width: 450px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+h3{
+    text-align: center;
+    border-bottom: 1px solid #000 ;
+}
+.action-L1 button{
+    background-color: rgb(4, 156, 4);
+    width: 470px;
+    margin: 13px;
+    padding: 13px;
+    border-radius: 20px;
+    border: none;
+}
+.button{
+    width: 450px;
+    margin: 13px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #154360;
+    margin-bottom: 20px;
+}
+button{
+    margin-left: 150px;
+    border: none;
+    background-color: #154360;
+    color: white;
+}
+.button i{
+    background-color: azure;
+    color: #0f35e0;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+/* signin */
+input[type= text],input[type= password]{
+    margin: 13px;
+    padding: 13px;
+    width: 450px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+.action-S1 button{
+    background-color: rgb(152, 30, 9);
+    width: 470px;
+    margin: 13px;
+    padding: 13px;
+    border-radius: 20px;
+    border: none;
+}

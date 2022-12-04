@@ -57,7 +57,7 @@ function searchTask() {
       if (taskTitle.indexOf(text) === -1) {
         task.style.display = "none";
       } else {
-        task.style.display = "flex";
+        task.style.display = "block";
       }
     }
 }

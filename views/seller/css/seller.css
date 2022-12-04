@@ -12,23 +12,21 @@
     background-color: #154360;
 }
 ul{
-    width: 100%;
     display: flex;
-    gap: 10px;
     text-transform: uppercase;
-    padding: 10px;
 }
 .nav ul li a:hover{
     background-color: #092231;
-    color: #e0193a;
+    color: #1934e0;
     transition: 0.2s;
-    padding: 10px;
+    padding: 15px;
     border-right: 5px solid black;
 }
 .nav ul li a{
     background-color: #154360;
     color: white;
 }
+
 /* start container */
 * {
     margin: 0;
@@ -76,6 +74,8 @@ input[type = text],input[type = url] {
     padding: 8px;
     border-radius: 5px;
     outline: none;
+    border: none;
+    /* background-color: #1543609d; */
 }
 label:hover{
     color: red;
@@ -85,7 +85,7 @@ a {
     padding: 10px;
     color: black;
     cursor: pointer;
-    margin-left: 90px;
+    margin-left: 50px;
     text-align: center;
 }
 a:hover{
@@ -114,7 +114,6 @@ button:hover{
 
 .Update{
     width: 10%;
-    /* height: 100%; */
     border-radius: 30%;
 }
 
